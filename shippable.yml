@@ -2,9 +2,11 @@ language: java
 
 jdk:
    - oraclejdk7
-script: ant coverage
-notifications:
-  email:
-      recipients:
-         - vidyac.raghav@gmail.com
-         - vidyatest@hotmail.com
+global:
+  env:
+    secure: aEZJm0+CHEOGiSgPVeC93FDI8Pgom1yO1e/H7AXWR/MKE7+8/z37wIQ84mVxB3dyGawoZOVphMfBrnegz9sAjxUeUyomkVY3mI7XWlsYrv47jf+bnqBOmrWLdSmxqfvbeMD3Ah/clBM8uZzkBjFnGwYwVvHyMz+P4N1SzRrabOY/7IyfTjQAxUpI8Weg1CWVwtqGyFnra9N+qcCuVFDDyFLsJhafKidPwtLPdp2lf3AKwQU1jqhvmeqDA2WV9Uddmpacq/CbDcav4hgwVHmSUf2lkDbURuElksoogsnXCkCfRG4wjp5nQ7f/XM3L1qVApcBqX+emTRiqXtjbvVEj5Q== 
+    secure: aGV98NTfEOMuFH9uHhzdrAJ6HYg0sb+ZTI8a/mlTLwExUXDhNPH92LebGvEj7ot1ZkTgUkIEFCSlTCYRCubpoQ0nOiO0QWTH2A7wjxyIitNj7FRHMsTzqIGgS7jUHEdNcW3wKDO4/IGR8GUJB5SKshOAlC7qNYOQCs7CxhoarrNMWf103VyDLmVXWCBXEbGHf2lYa5795++QmArdhlZLTu3SgW9z2Gz97oyH/a9oRoi8EEmsFsBcjhVJQd9h/RH8jpGvFLb3tdN5n6/CMpROAaYtyWGP3aZxDw3qfrrYeGxI8NQ/wgfEjxamc2+60o2YvIn+HLEoyLWbtSpgr0QsKQ== 
+script: 
+   - ant coverage
+   - echo language used $lang
+   - echo jdk used $jdk
