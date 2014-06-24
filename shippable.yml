@@ -1,11 +1,4 @@
 language: java
-
-jdk:
-   - oraclejdk7
-env:
- global:
-    - secure: fX4QL8wPU8m33KotOJ15sHh5s9cNG/ZtY4Xbn5hfV7JdQ6muCSVqqyJZ3fZk5RJ5e4fyNjomFo1+ny1xLGWCJn7Pml02C2KClZbPWbqJM/HhhcXQeLO5vUvrkfp1ne9QTvQI8Z2ksLu72oCdc1X9vEkmcin98M7ae9LoTCbyxJGZm26908vQnOF+meI6Sd8LgsilZXkWMDX2xxcxy4vUm1IHwLdRZmrLGrbVVaI/mVs4YDbpDRhvA//QuGhjhYauOgThEeXHkb5r0g3gpRwbz3GHddSvYwLtY7C5dQ2otj3CO2zvCPf1AJwsfHbxjcMDs/NKFkkAS1Hve9rcb6b1Qw==
-    - secure: A1SC/4nBGT2gRVHcx+zidfTWx9A+3zDDnLj8oOUuBCHgKtNij/OcZ8/FIJSPJ3FQ+WT0TGWw3xj3bvU0udHCbsih9O0+TNlkJI3Wq2O13O3kXbATx3BFBuSHCqVZrFuy55RKfp1D+wXBXSvWT0/mnFl2Fk+FUh1lZj5vcZXIqEQtZaDeFBKWymyhoW12+StWt0hEoYO+ISOuwlmSxR1qp8oESGAvRAs+xUR0tIRpVFs04LPAOm2Vsd63MapuvCq6XRTQK0ayZEvAcO5NGLTVJd+2HRWc5lNve6swGXM5/lzKD7VbJEqCwPLHK242NaL8u+9MT2BT87VVPFF6Mjcsvg==     
 script: 
    - ant coverage
    - echo language used $lang
