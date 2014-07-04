@@ -3,3 +3,7 @@ script:
    - ant coverage
    - echo language used $lang
    - echo jdk used $jdk
+notifications:
+   email:
+       recipients:
+          - vidyac.raghav@gmail.com
