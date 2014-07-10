@@ -2,4 +2,6 @@ language: java
 
 jdk:
    - openjdk7
-script: ant coverage
+script: 
+   - ant coverage
+   - curl -XPOST https://api.shippable.com/projects/53a519783b73579d01852c1b/build?token=$SHIPPABLE_API_TOKEN
