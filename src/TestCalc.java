@@ -23,7 +23,7 @@ public class TestCalc extends TestCase {
   public void testsubtractForTest2() {
 	  	int num1 = 5;
 	  	int num2 = 2;
-	  	int total = 3;
+	  	int total = 4;
 	  	int sum = 0;
 	  	sum = Math.subtract(num1, num2);
 	  	assertEquals(sum, total);
