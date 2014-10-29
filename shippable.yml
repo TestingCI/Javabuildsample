@@ -1,4 +1,4 @@
-language: ava
+language: java
 
 jdk:
    - openjdk7
