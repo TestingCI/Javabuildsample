@@ -5,3 +5,15 @@ jdk:
 script: 
    - ant coverage
    - curl -XPOST https://api.shippable.com/projects/53a519783b73579d01852c1b/build?token=$SHIPPABLE_API_TOKEN
+   - if [ "$Fail_test" == "yes" ]; then exit 100; fi
+matrix:
+ allow_failures:
+  - env: key1=foo FAIL_test="yes"
+env:
+ global:
+  - key1=foo
+  - key2= test-hyphens - and spaces, prod!
+  - BIN="quote text for env"
+  matrix:
+  - Fail_test=yes
+  - Pass_test=no
