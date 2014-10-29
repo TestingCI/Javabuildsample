@@ -14,6 +14,6 @@ env:
   - key1=foo
   - key2= test-hyphens - and spaces, prod!
   - BIN="quote text for env"
-  matrix:
+ matrix:
   - Fail_test=yes
   - Pass_test=no
