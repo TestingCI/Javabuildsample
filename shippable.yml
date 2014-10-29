@@ -4,10 +4,12 @@ jdk:
    - openjdk7
 script:
    - echo $key1
+   - echo $key_prod
    - echo $key2
    - echo $sum and $sub
    - ant coverage
 env: 
+   - secure: OHbrEiTAvFlg1Zaps4q01M3XieUlWChw+Eo5L+M4eODAfG2u5ogudVXA0TkxbNrkN9TaLd0uCAFJhC/iKfTg/POCAlL3CaruHqVMVJ+juo0oKO0wK9jykdOPR8hvRCH5i1VIHqWaGA1td6Y+j984hECqD5JgTyRcP6ow8KACIPbFr4tKMnRwx5DJP24Gq7sN2ktoqqaK1Q5Po5p1MK5qiJorYLqULL5VxQkA7bdl9YUUM5JmuS7SXfsqgQ5t2+kXV9ssaOcS4hPyXtutwjact6kPr+QFFSp0kgkHdFq28TKe22wQay5iBk6aVKnWO3yASIDVSXqd8bb0/u5mK9caeQ==
    - secure: d9/IcAtdmZYMRcVUtQ95EXjJxglE1VTTXOzRm7iq2AcGDeAQ4FRzSWUY71qjT0tqcP4Z3nsRx6fI/jG23HoqR822oiMzlGWGu7Md8E3FheQ9PzcQOP5bg56ZD4OJzpLau+RdZewQ2KkLOacd611JirRfadhB+QzX4QW/yaBarI95qHzjSCh2eRhzuAEzIujz0CvnEhsVRUz2P4MK4f3YDnYqVPQnWfHBYB5Rr1iQnxpNiVsFUMUelxQHs4RF2l6DKSTBJYSHh+asC670jW4alwXjK/UQom8WzdDSB1bPCvhvMs38yyC+vMrybUJ5WSiKqaeKLg18LEZaprT1DgGFfA==
    - secure: B+dJTcpWC+W8ZjB1UAHPPgnCyrySNPdGH1HattTJKIAbPp2oTo27+R6yDnESaDvREL0001v/f/DDjFhCznhn9vWMY/74F93W5hNS3C9P+5cbMZx4Ssmt5WTYQDf/oBkhXKw4O3vaZtoRe9bNQVXTpa6qvUay72QzM1WA3Z3B1wrl7N2SeBTXBq/lwjCqrqgoUNla0MdsqUiIRaIgN6AnT0LV58sNwmBUepy24L0gydf0B3FGWYdpgqu7kqCON0BL286jdEy1ZmfV8nHAbs2ljy/QzCJ8ndXKaSHfIShHJJ2DiBBCNsJ+r50Y+MKxqX1jERSss0GZb00rECQmHh3sMA==
    - sum=a1+a2
