@@ -19,3 +19,10 @@ env:
      - secure: aRer+kzqSqJ+DVFATuK/4j6BuwUE5MfTAe1GmLPGpwrhKACI+htt+uv9UdUAKjq8ex6tgHGVjHlwojyQ4gY3dVlWODaifVgaE3sbIwsmRQZxNceLXJf25TSAQsGbHLf212YL4PVt0BAQ72zNZhhSUPRiEv0VSD+n75OpO5BBVPe+Tc2G37U/2tNE24VgSXtRL4APwbtWi5VEcVNQMEYxMzPLuePUthq6/zODh4WLhJ5AqZ9o0SgIBz7nd5xODo4v6OyRRmYQ48f1DqBSJM8luVPPUDPm7QD72HOaZ+lFOng2awhRvzDFMWpXerOkqZm7g20PcVykJLBeRMGRMew/Bg==
   matrix:
      - secure: GYkAeObWokC5ijSyLHjciLt+eP5pma3u3jmvvHybUylcF+5DJlCpUSXQMzxmnyt4/3lRtfBpeYoO8EaHEJoyFv8+K1whJgBSqgvT+dfwXepiPJ+rD7T/XRBzN7kXLhNZaz3gyzMXkebaNSUAe1Do3Ac3QLWvODuaQukg2VVMklYpkzX/CgTqVWxYUfHyE4rqB9canYxcwKIBdZZN5FOOs8Z1JiVyeeyf02OZHRdlNJgrY7nd6wB3JOvtfq4hyDlEHQ3EX1nR/DGrkO9exll4gWgFqHsLN7Y9hr9k3rT4Xz8r6+UQs7L1187+9gzPadEpZ9s3M4JXf4pZVPZ1A4HdHA==
+notifications:
+  email:
+    recipients:
+      - vidya@shippable.com
+      - vidyac.raghav@gmail.com
+    on_success: always
+    on_failure: always
