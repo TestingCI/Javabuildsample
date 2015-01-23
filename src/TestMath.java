@@ -20,6 +20,7 @@ public class TestMath extends TestCase {
   	sum = Math.add(num1, num2);
   	assertEquals(sum, total);
   }
+  
   public void testsubtract() {
 	  	int num1 = 5;
 	  	int num2 = 2;
