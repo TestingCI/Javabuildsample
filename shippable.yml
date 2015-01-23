@@ -3,12 +3,8 @@ language: java
 jdk:
    - openjdk7
 script:
-   - echo $key1
-   - echo $key_prod
-   - echo $key2
-   - echo $sum and $sub
-   - echo $line1 and $line2 and $prod_key
    - ant coverage
+
 env: 
   global:
      - secure: OHbrEiTAvFlg1Zaps4q01M3XieUlWChw+Eo5L+M4eODAfG2u5ogudVXA0TkxbNrkN9TaLd0uCAFJhC/iKfTg/POCAlL3CaruHqVMVJ+juo0oKO0wK9jykdOPR8hvRCH5i1VIHqWaGA1td6Y+j984hECqD5JgTyRcP6ow8KACIPbFr4tKMnRwx5DJP24Gq7sN2ktoqqaK1Q5Po5p1MK5qiJorYLqULL5VxQkA7bdl9YUUM5JmuS7SXfsqgQ5t2+kXV9ssaOcS4hPyXtutwjact6kPr+QFFSp0kgkHdFq28TKe22wQay5iBk6aVKnWO3yASIDVSXqd8bb0/u5mK9caeQ==
