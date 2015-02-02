@@ -1,2 +1,2 @@
-A sample ant project for unstable status
+A sample project for unstable build status
 ==============================================
