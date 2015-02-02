@@ -15,7 +15,7 @@ public class TestMath extends TestCase {
   public void testAdd() {
   	int num1 = 3;
   	int num2 = 3;
-  	int total = 6;
+  	int total = 4;
   	int sum = 0;
   	sum = Math.add(num1, num2);
   	assertEquals(sum, total);
