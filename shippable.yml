@@ -10,5 +10,6 @@ notifications:
     recipients:
       - vidya@shippable.com
       - vidyac.raghav@gmail.com
+      - shipci@outlook.com
     on_success: change
     on_failure: always
