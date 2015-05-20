@@ -4,6 +4,7 @@ jdk:
    - openjdk7
 script:
    - ant coverage
+archive: true
 
 notifications:
   email:
