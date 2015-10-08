@@ -9,7 +9,7 @@ jdk:
 script:
    - ant coverage
    - echo $key1
-   - echo $Foo
+   - echo $Foo and $BAR
    
 archive: true
 env:
@@ -18,6 +18,7 @@ env:
 #   - secure: pgKMkaoFu65KBA5JD4DRdIrAeNXmJCQZaR70bbP2N6WJuPwuYGAaKiVcSdh64dKPrXSKbyRUckohN46aFXS00SbY6EdS6tzt+USvAmK3uYrQ3qr8bkT8AL6p/8lveutjbUPCm+VzlFc48/gE1g4CfhOOHZ0B7HeHx4aYKu/9ApsgPUpRqBbvI3KFDfZhtMOAjfdaF/ksyavtjuQHOKYROUpppBxJH2DwCmX9dqMOmsNtQTQ2pwWqc4YKd6y3R5F/DBEMn/3EOxmHYwSy0BLrNYao9ypKJ2rUUhctnoARow9eIGDxMcZURcX2KxDlxKTMNSBACcyLcf+QN5EQhvWnoA== 
  matrix:
    - Foo=bar
+   - BAR=foo
 
 notifications:
   email:
