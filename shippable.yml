@@ -10,4 +10,4 @@ cache: true
 
 matrix:
  include:
-   jdk: oraclejdk7
+  - jdk: oraclejdk7
